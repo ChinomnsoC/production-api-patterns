@@ -16,15 +16,3 @@ class User(Base):
     last_name = mapped_column(String)
     deleted_at = mapped_column(DateTime, nullable=True)
     password_hash = mapped_column(String)
-
-    
-    
-#     users table:
-#   id (UUID, primary key)        ← internal database identifier
-#   username (String, unique)     ← human-readable identifier
-
-
-    
-    
-    # users: id, username, email, first_name, 
-    # last_name, password_hash, last_login, created_at, updated_at, deleted_at

@@ -14,4 +14,3 @@ class Post(Base):
     deleted_at = mapped_column(DateTime, nullable=True)
     created_at = mapped_column(DateTime, nullable=False)
     content = mapped_column(String)
-    
